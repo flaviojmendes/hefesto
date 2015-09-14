@@ -12,3 +12,4 @@ Feel free to contribute! And don't complain about my code!
 
 
 
+This App is under GPL. 
