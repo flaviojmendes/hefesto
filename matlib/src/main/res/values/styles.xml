@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="MaterialDesignLibraryTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/mdl_color_primary</item>
+        <item name="colorPrimaryDark">@color/mdl_color_primary_dark</item>
+    </style>
+
+    <style name="MaterialDesignLibraryTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/mdl_color_primary</item>
+        <item name="colorPrimaryDark">@color/mdl_color_primary_dark</item>
+    </style>
+
+</resources>

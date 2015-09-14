@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SelectableRoundedImageView"><attr format="dimension" name="sriv_left_top_corner_radius"/><attr format="dimension" name="sriv_right_top_corner_radius"/><attr format="dimension" name="sriv_left_bottom_corner_radius"/><attr format="dimension" name="sriv_right_bottom_corner_radius"/><attr format="dimension" name="sriv_border_width"/><attr format="color" name="sriv_border_color"/><attr format="boolean" name="sriv_oval"/><attr name="android:scaleType"/></declare-styleable>
+</resources>

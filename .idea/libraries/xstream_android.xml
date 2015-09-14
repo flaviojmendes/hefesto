@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="xstream-android">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ponto/libs/xstream-android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

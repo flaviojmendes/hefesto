@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cardview-v7-21.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/cardViewmaster/libs/cardview-v7-21.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

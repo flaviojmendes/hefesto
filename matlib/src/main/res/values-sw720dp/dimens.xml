@@ -1,0 +1,30 @@
+<resources>
+
+    <dimen name="mdl_navigation_drawer_width">400dp</dimen>
+
+    <!-- NavigationDrawer -->
+    <dimen name="mdl_navigation_drawer_row_height">56dp</dimen>
+    <dimen name="mdl_navigation_drawer_row_padding">24dp</dimen>
+    <dimen name="mdl_navigation_drawer_row_icon_size">32dp</dimen>
+    <dimen name="mdl_navigation_drawer_row_title_size">16sp</dimen>
+    <dimen name="mdl_navigation_drawer_row_header_size">16sp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_height">200dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_data_height">70dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_title_size">17sp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_description_size">17sp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_arrow_size">32dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_current_account_size">90dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_other_account_size">60dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_second_account_padding_right">76dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_small_height">80dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_small_account_size">48dp</dimen>
+
+    <!-- ViewPager With Tabs -->
+    <dimen name="mdl_viewpager_with_tabs_height">64dip</dimen>
+
+    <!-- CardView -->
+    <dimen name="mdl_cardview_title_size">26sp</dimen>
+    <dimen name="mdl_cardview_description_size">18sp</dimen>
+    <dimen name="mdl_cardview_button_size">16sp</dimen>
+
+</resources>

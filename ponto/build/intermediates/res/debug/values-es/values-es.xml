@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/flavio/dev/ponto/ponto/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-es/values-es.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <!-- From: file:/home/flavio/dev/ponto/ponto/src/main/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string name="action_adicionar_falta">Adicionar Falta</string>
+    <string name="action_adicionar_horario">Adicionar Horário</string>
+    <string name="action_configuracoes">Configurações</string>
+    <string name="action_excluir_tudo">Excluir tudo</string>
+    <string name="action_exportar">Exportar</string>
+    <string name="action_importar">Importar</string>
+    <string name="action_main">Histórico</string>
+    <string name="action_ranking">Ranking</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_sign_in">Fazer login</string>
+    <string name="add_falta_explc">Aqui você pode adicionar marcar os dias em que faltou.</string>
+    <string name="add_hora_explc">Aqui você pode adicionar horários em que esqueceu de bater o ponto.</string>
+    <string name="ajustar_hora">1 HORA</string>
+    <string name="ajustar_hora_confirmacao">Tem certeza que quer ajustar o intervalo para 1 hora?</string>
+    <string name="apagar_dia_confirmacao">Tem certeza que quer apagar o dia inteiro?</string>
+    <string name="apagar_falta_confirmacao">Tem certeza que quer apagar a falta?</string>
+    <string name="apagar_hora_confirmacao">Tem certeza que quer apagar o horário?</string>
+    <string name="apagar_mood_confirmacao">Tem certeza que quer apagar este humor?</string>
+    <string name="apagar_tudo_confirmacao">Tem certeza que quer apagar todo o histórico?</string>
+    <string name="app_name">Hefesto</string>
+    <string name="arquivo_salvo">Backup salvo em </string>
+    <string name="bater_ponto">BATER PONTO</string>
+    <string name="carregando">carregando..</string>
+    <string name="configuracoes_salvas_sucesso">Configurações salvas com sucesso.</string>
+    <string name="confirmar_exportar">Tem certeza que quer importar horários existentes?</string>
+    <string name="confirmar_importar">Tem certeza que quer fazer o backup? Essa ação poderá sobrescrever backups já existentes.</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="exportar_confirmacao">Tem certeza que exportar os registros atuais? Essa ação sobrescreverá o backup atual.</string>
+    <string name="falta_salva_sucesso">Falta salva com sucesso.</string>
+    <string name="fim_timer">Já pode ir!</string>
+    <string name="grf_explc">Gráfico das horas trabalhadas em</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="horario_salvo_sucesso">Horário salvo com sucesso.</string>
+    <string name="horas">Horas:</string>
+    <string name="importar_confirmacao">Tem certeza que quer importar os registros salvos? Essa operação não poderá ser desfeita.</string>
+    <string name="minutos">Minutos:</string>
+    <string name="nao">Não</string>
+    <string name="navigation_drawer_close">Fechar Menu</string>
+    <string name="navigation_drawer_open">Abrir Menu</string>
+    <string name="ponto">Ponto</string>
+    <string name="rnk_explc">O ranking funciona com base no saldo dos usuários.</string>
+    <string name="sair">SAIR</string>
+    <string name="saldo">SALDO MÊS</string>
+    <string name="saldoTotal">SALDO TOTAL</string>
+    <string name="saldo_negativo">Saldo negativo</string>
+    <string name="salvar">SALVAR</string>
+    <string name="sim">Sim</string>
+    <string name="tempo_jornada_label">Jornada de Trabalho:</string>
+    <string name="tempo_restante">TEMPO RESTANTE</string>
+    <string name="tempo_saldo_acumulado">Saldo Acumulado:</string>
+    <string name="tempo_trabalhado">TEMPO TRABALHADO</string>
+    <string name="text_notification_jornada">Você completou sua jornada de trabalho!</string>
+    <string name="title_activity_adicionar_hora">Adicionar Horário</string>
+    <string name="title_activity_configuracoes">Configurações</string>
+    <string name="title_activity_grafico">Gráfico de Horas</string>
+    <string name="title_activity_nfc">NFCActivity</string>
+    <string name="title_activity_ranking">Ranking</string>
+    <string name="title_notification_jornada">Oba!</string>
+    <string name="txt_est_saida">saída est.</string>
+    <string name="txt_horas_trabalhadas">Horas Trabalhadas</string>
+    <string name="txt_mood_title">Como você está se sentindo?</string>
+    <string name="txt_saldo_usuarios">Saldo de usuários</string>
+    <string name="usuarios">usuários</string>
+    <string name="vc_esta">Você está em</string>
+    <string name="vc_faltou">VOCÊ FALTOU ESSE DIA</string>
+    <string name="vc_possui_saldo">Você possui um saldo melhor que</string>
+    <string name="voce">Você</string>
+    <string name="widget_bater_ponto">Hefesto (Bater Ponto)</string>
+    <string name="widget_contagem_regressiva">Hefesto (Contagem Regressiva)</string>
+    <string name="widget_saldo">Hefesto (Saldo)</string>
+    <string name="widget_tempo_trabalhado">Hefesto (Tempo Trabalhado)</string>
+</resources>

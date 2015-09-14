@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Denis/Pictures/material-design-library/library/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="mdl_cardview_background">#fafafa</color>
+    <color name="mdl_cardview_highlight_button_color">#ffab40</color>
+    <color name="mdl_cardview_image_left_description_color">#757575</color>
+    <color name="mdl_cardview_image_left_title_color">#212121</color>
+    <color name="mdl_cardview_image_top_description_color">#212121</color>
+    <color name="mdl_cardview_image_top_title_color">#ffffff</color>
+    <color name="mdl_cardview_normal_button_color">#212121</color>
+    <color name="mdl_cardview_normal_button_ripple_color">#66999999</color>
+    <color name="mdl_cardview_normal_description_color">#212121</color>
+    <color name="mdl_cardview_separator_color">#dcdcdc</color>
+    <color name="mdl_color_primary">#ff608aff</color>
+    <color name="mdl_color_primary_dark">#ff5d79ea</color>
+    <color name="mdl_navigation_drawer_accounts_separator_color">#e0e0e0</color>
+    <color name="mdl_navigation_drawer_item_header_color">#999999</color>
+    <color name="mdl_navigation_drawer_item_header_separator_color">#e0e0e0</color>
+    <color name="mdl_navigation_drawer_item_title_color">#212121</color>
+    <color name="mdl_navigation_drawer_item_top_background">#f6f6f6</color>
+    <declare-styleable name="MDLCardView"><attr format="string" name="mdl_title"/><attr format="string" name="mdl_description"/><attr format="reference" name="mdl_image"/><attr format="enum" name="mdl_imagePosition"><enum name="none" value="0"/><enum name="left" value="1"/><enum name="top" value="2"/></attr><attr format="string" name="mdl_normalButton"/><attr format="string" name="mdl_highlightButton"/></declare-styleable>
+    <!-- From: file:/C:/Users/Denis/Pictures/material-design-library/library/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="mdl_cardview_button_size">14sp</dimen>
+    <dimen name="mdl_cardview_description_size">16sp</dimen>
+    <dimen name="mdl_cardview_title_size">24sp</dimen>
+    <dimen name="mdl_navigation_drawer_row_header_size">14sp</dimen>
+    <dimen name="mdl_navigation_drawer_row_height">48dp</dimen>
+    <dimen name="mdl_navigation_drawer_row_icon_size">28dp</dimen>
+    <dimen name="mdl_navigation_drawer_row_padding">16dp</dimen>
+    <dimen name="mdl_navigation_drawer_row_title_size">14sp</dimen>
+    <dimen name="mdl_navigation_drawer_width">240dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_arrow_size">24dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_current_account_size">64dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_data_height">56dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_description_size">15sp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_height">140dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_other_account_size">40dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_second_account_padding_right">56dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_small_account_size">36dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_small_height">68dp</dimen>
+    <dimen name="mdl_navigationdrawer_accounts_title_size">15sp</dimen>
+    <dimen name="mdl_viewpager_with_tabs_height">48dip</dimen>
+    <!-- From: file:/C:/Users/Denis/Pictures/material-design-library/library/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="mdl_toolbar_search_menu_item" type="id"/>
+    <!-- From: file:/C:/Users/Denis/Pictures/material-design-library/library/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="mdl_add_account">Add an account</string>
+    <string name="mdl_back">Back</string>
+    <string name="mdl_help_and_feedback">Help &amp; feedback</string>
+    <string name="mdl_icon">Icon</string>
+    <string name="mdl_manage_accounts">Manage accounts</string>
+    <string name="mdl_navigation_drawer_close">Close navigation drawer</string>
+    <string name="mdl_navigation_drawer_open">Open navigation drawer</string>
+    <string name="mdl_search">Search</string>
+    <string name="mdl_settings">Settings</string>
+    <!-- From: file:/C:/Users/Denis/Pictures/material-design-library/library/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="MaterialDesignLibraryTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/mdl_color_primary</item>
+        <item name="colorPrimaryDark">@color/mdl_color_primary_dark</item>
+    </style>
+    <style name="MaterialDesignLibraryTheme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/mdl_color_primary</item>
+        <item name="colorPrimaryDark">@color/mdl_color_primary_dark</item>
+    </style>
+</resources>

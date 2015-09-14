@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   
+   android:paddingBottom="0dp"
+   android:paddingLeft="15dp"
+   android:paddingRight="15dp"
+   android:paddingTop="0dp"
+   
+   android:alpha="1"
+   android:orientation="vertical"
+   android:layout_gravity="center_horizontal|center_vertical"
+   android:gravity="center_horizontal|center_vertical"
+   tools:context=".MainActivity" >
+
+   
+    <ImageView android:id="@+id/titlePontoWidget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+	    android:src="@drawable/ic_add_ponto"
+	    android:layout_gravity="center_horizontal|center_vertical"
+	    
+/>
+    
+    
+   
+    
+	
+	
+</LinearLayout>

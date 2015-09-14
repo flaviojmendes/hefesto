@@ -1,0 +1,6 @@
+include ':cardViewmaster', ':card', ':tests', ':fab', ':matcalendar', ':matlib', ':roundedletterview', ':edittext', ':ripple'
+include ':library'
+include ':alopixAndroidFloatingActionButtonEclipse'
+include ':ponto'
+project(':card').projectDir = new File('android-CardView-master/Application')
+project(':fab').projectDir = new File('FloatingActionButton-master/sample')

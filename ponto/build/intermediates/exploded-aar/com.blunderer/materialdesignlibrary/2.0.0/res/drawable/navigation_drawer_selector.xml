@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/mdl_navigation_drawer_item_top_background" android:state_activated="true"/>
+
+</selector><!-- From: file:/C:/Users/Denis/Pictures/material-design-library/library/src/main/res/drawable/navigation_drawer_selector.xml -->

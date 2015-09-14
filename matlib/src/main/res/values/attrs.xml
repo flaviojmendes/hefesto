@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MDLCardView">
+        <attr name="mdl_title" format="string"/>
+        <attr name="mdl_description" format="string"/>
+        <attr name="mdl_image" format="reference"/>
+        <attr name="mdl_imagePosition" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="top" value="2"/>
+        </attr>
+        <attr name="mdl_normalButton" format="string"/>
+        <attr name="mdl_highlightButton" format="string"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alopixAndroidFloatingActionButtonEclipse/alopixAndroidFloatingActionButtonEclipse.iml" filepath="$PROJECT_DIR$/alopixAndroidFloatingActionButtonEclipse/alopixAndroidFloatingActionButtonEclipse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-CardView-master/Application/card.iml" filepath="$PROJECT_DIR$/android-CardView-master/Application/card.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cardViewmaster/cardViewmaster.iml" filepath="$PROJECT_DIR$/cardViewmaster/cardViewmaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/edittext/edittext.iml" filepath="$PROJECT_DIR$/edittext/edittext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FloatingActionButton-master/sample/fab.iml" filepath="$PROJECT_DIR$/FloatingActionButton-master/sample/fab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matcalendar/matcalendar.iml" filepath="$PROJECT_DIR$/matcalendar/matcalendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matlib/matlib.iml" filepath="$PROJECT_DIR$/matlib/matlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ponto.iml" filepath="$PROJECT_DIR$/ponto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ponto/ponto-ponto.iml" filepath="$PROJECT_DIR$/ponto/ponto-ponto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ripple/ripple.iml" filepath="$PROJECT_DIR$/ripple/ripple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roundedletterview/roundedletterview.iml" filepath="$PROJECT_DIR$/roundedletterview/roundedletterview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/tests.iml" filepath="$PROJECT_DIR$/tests/tests.iml" />
+    </modules>
+  </component>
+</project>

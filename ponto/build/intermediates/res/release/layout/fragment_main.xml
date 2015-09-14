@@ -1,0 +1,225 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.fjmob.ponto.MainActivity$PlaceholderFragment">
+
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+     >
+
+	<LinearLayout android:id="@+id/layoutSaldos"
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:layout_weight="0.10"
+		android:orientation="horizontal"
+		android:paddingTop="2dp"
+		android:paddingBottom="2dp"
+		android:background="@color/primary"
+		>
+		<LinearLayout android:id="@+id/layoutSaldoTotal"
+			android:layout_width="0dp"
+			android:layout_weight="0.5"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:paddingTop="2dp"
+			android:paddingBottom="2dp"
+			 android:background="@color/primary"
+			>
+				<TextView
+				  android:id="@+id/saldoTxt"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical|center_horizontal"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:textSize="16sp"
+				android:textColor="@color/icons"
+				android:text="@string/saldoTotal"></TextView>
+
+			   <TextView
+				  android:id="@+id/saldoTotal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical|center_horizontal"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:textSize="24sp"
+				android:textColor="@color/icons"></TextView>
+		 </LinearLayout>
+		<LinearLayout android:id="@+id/layoutSaldoMes"
+			android:layout_width="0dp"
+			android:layout_weight="0.5"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:paddingTop="2dp"
+			android:paddingBottom="2dp"
+			android:background="@color/primary"
+			>
+			<TextView
+				android:id="@+id/saldoMesTxt"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical|center_horizontal"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:textSize="16sp"
+				android:textColor="@color/icons"
+				android:text="@string/saldo"></TextView>
+
+			<TextView
+				android:id="@+id/saldoMesTotal"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical|center_horizontal"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:textSize="24sp"
+				android:textColor="@color/icons"></TextView>
+		</LinearLayout>
+    </LinearLayout>
+
+
+  	<LinearLayout android:id="@+id/layoutMes"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.08"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+         android:background="@color/primary_dark"
+        >
+    
+     	<ImageView android:id="@+id/btnPrevMes"
+     	    android:layout_width="0dp"
+     	    android:layout_height="36dp"
+     	    android:layout_weight="0.1"
+     	    android:gravity="center_vertical|center_horizontal"
+	        android:layout_gravity="center_vertical|center_horizontal"
+     	    android:src="@drawable/ic_arrow_back"
+     	    />
+	      
+     		<LinearLayout 
+     		    android:layout_weight="0.8"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="fill_parent"
+     		     android:gravity="center_vertical|center_horizontal"
+		        android:layout_gravity="center_vertical|center_horizontal"
+     		    android:orientation="horizontal">
+     	
+		        <TextView 
+		          android:id="@+id/txtMes"
+		        android:layout_width="wrap_content" 
+		        android:layout_height="fill_parent"
+		        android:gravity="center_vertical|center_horizontal"
+		        android:layout_gravity="center_vertical|center_horizontal"
+		        android:textSize="18sp"
+		        android:textColor="@color/icons"
+		        android:text=""></TextView>
+		         
+		        
+		         <ImageView android:id="@+id/btnChart"
+	     	     android:layout_width="36dp"
+	     	    android:layout_height="36dp"
+	     	    android:gravity="center_vertical|center_horizontal"
+		        android:layout_gravity="center_vertical|center_horizontal"
+	     	    android:src="@drawable/ic_chart"
+	     	    />
+	        
+	        </LinearLayout>
+	        
+	       <ImageView android:id="@+id/btnNextMes"
+     	     android:layout_width="0dp"
+     	    android:layout_height="36dp"
+     	    android:layout_weight="0.1"
+     	    android:gravity="center_vertical|center_horizontal"
+	        android:layout_gravity="center_vertical|center_horizontal"
+     	    android:src="@drawable/ic_arrow_forward"
+     	    />
+	       
+       
+     </LinearLayout>
+    
+    
+      <ScrollView android:id="@+id/scrollListaHorarios"
+          android:layout_width="fill_parent"
+          android:layout_height="0dp"
+        android:layout_weight="0.70">
+          <FrameLayout 
+              android:id="@+id/frmLayoutHorarios"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+	          <LinearLayout android:id="@+id/listaHorarios"
+	              android:layout_width="fill_parent"
+	              android:layout_height="wrap_content"
+	              android:orientation="vertical"
+	              android:paddingTop="0dp"
+	              android:paddingBottom="0dp">
+	              
+	              
+	               
+	              
+	          </LinearLayout>
+	           
+          </FrameLayout>
+          
+      </ScrollView>
+      
+</LinearLayout>
+	<com.github.clans.fab.FloatingActionMenu
+		android:id="@+id/fabMacro"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:paddingRight="10dp"
+		android:paddingBottom="10dp"
+		android:paddingLeft="10dp"
+		android:src="@drawable/ic_menu"
+		app:menu_labels_style="@style/MenuLabelsStyle"
+		app:menu_colorNormal="@color/primary"
+		app:menu_colorPressed="@color/primary_dark"
+		app:menu_colorRipple="@color/icons"
+		app:menu_labels_showAnimation="@anim/jump_from_down"
+		app:menu_labels_hideAnimation="@anim/jump_to_down"
+		app:menu_animationDelayPerItem="0"
+		app:menu_shadowColor="#444"
+		app:menu_labels_ellipsize="end"
+		app:menu_labels_singleLine="true"
+		app:menu_backgroundColor="#ccffffff">
+
+		<com.github.clans.fab.FloatingActionButton
+			android:id="@+id/fab"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_content_new"
+			app:fab_label="@string/bater_ponto"
+			style="@style/MenuButtonsStyle"/>
+		<com.github.clans.fab.FloatingActionButton
+			android:id="@+id/fabAddFalta"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_content_new"
+			app:fab_label="@string/action_adicionar_falta"
+			style="@style/MenuButtonsStyle"/>
+		<com.github.clans.fab.FloatingActionButton
+			android:id="@+id/fabAddHorario"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/ic_content_new"
+			app:fab_label="@string/action_adicionar_horario"
+			style="@style/MenuButtonsStyle"/>
+
+
+	</com.github.clans.fab.FloatingActionMenu>
+
+</FrameLayout><!-- From: file:/home/flavio/Dev/ponto/ponto/src/main/res/layout/fragment_main.xml -->

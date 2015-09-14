@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mdl_navigation_drawer_open">Open navigation drawer</string>
+    <string name="mdl_navigation_drawer_close">Close navigation drawer</string>
+    <string name="mdl_settings">Settings</string>
+    <string name="mdl_help_and_feedback">Help &amp; feedback</string>
+    <string name="mdl_icon">Icon</string>
+    <string name="mdl_manage_accounts">Manage accounts</string>
+    <string name="mdl_add_account">Add an account</string>
+    <string name="mdl_search">Search</string>
+    <string name="mdl_back">Back</string>
+
+</resources>

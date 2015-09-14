@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>        
+        <shape>
+            <gradient
+                android:endColor="@color/icons"
+                android:startColor="@color/icons"
+                android:angle="270" />
+            <stroke
+                android:width="3dp"
+                android:color="@color/primary_dark" />
+            <corners
+                android:radius="3dp" />
+            <padding
+                android:left="3dp"
+                android:top="3dp"
+                android:right="3dp"
+                android:bottom="3dp" />
+        </shape>
+    </item>
+</selector><!-- From: file:/home/flavio/Dev/ponto/ponto/src/main/res/drawable/edit_text.xml -->

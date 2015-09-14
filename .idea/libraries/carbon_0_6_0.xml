@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="carbon-0.6.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/matlib/build/intermediates/exploded-aar/tk.zielony/carbon/0.6.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/matlib/build/intermediates/exploded-aar/tk.zielony/carbon/0.6.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

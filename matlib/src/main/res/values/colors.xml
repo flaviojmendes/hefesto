@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mdl_color_primary">#ff608aff</color>
+    <color name="mdl_color_primary_dark">#ff5d79ea</color>
+
+    <!-- NavigationDrawer -->
+    <color name="mdl_navigation_drawer_item_title_color">#212121</color>
+    <color name="mdl_navigation_drawer_item_top_background">#f6f6f6</color>
+    <color name="mdl_navigation_drawer_item_header_color">#999999</color>
+    <color name="mdl_navigation_drawer_item_header_separator_color">#e0e0e0</color>
+    <color name="mdl_navigation_drawer_accounts_separator_color">#e0e0e0</color>
+
+    <!-- CardView -->
+    <color name="mdl_cardview_background">#fafafa</color>
+    <color name="mdl_cardview_image_left_title_color">#212121</color>
+    <color name="mdl_cardview_image_top_title_color">#ffffff</color>
+    <color name="mdl_cardview_normal_description_color">#212121</color>
+    <color name="mdl_cardview_image_left_description_color">#757575</color>
+    <color name="mdl_cardview_image_top_description_color">#212121</color>
+    <color name="mdl_cardview_normal_button_color">#212121</color>
+    <color name="mdl_cardview_highlight_button_color">#ffab40</color>
+    <color name="mdl_cardview_normal_button_ripple_color">#66999999</color>
+    <color name="mdl_cardview_separator_color">#dcdcdc</color>
+
+</resources>

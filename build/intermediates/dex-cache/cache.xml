@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/flavio/dev/ponto/ponto/build/intermediates/exploded-aar/ponto/matcalendar/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="03be3802cb3f0b40abbf1b5b11b29a0ee497ced7">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/classes-581de95ecf37db58cbf2e766ec85ed6d1374a358.jar" />
+    </item>
+    <item
+        jar="/home/flavio/dev/ponto/ponto/build/intermediates/exploded-aar/ponto/edittext/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ef9b4212c76cd4b04f834dc6aea2a02fa0ae2de">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/classes-4f7ee29528f3c47c3299a4c8b3d6f918a5939a70.jar" />
+    </item>
+    <item
+        jar="/home/flavio/dev/ponto/ponto/build/intermediates/exploded-aar/ponto/roundedletterview/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0c95a64480a16ad327167d292b2ca2d29a4d2895">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/classes-273525ca936e8898fe3a152e0963d50860688b01.jar" />
+    </item>
+    <item
+        jar="/home/flavio/dev/ponto/ponto/build/intermediates/exploded-aar/com.github.clans/fab/1.5.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2442ffbd2ff712ca970b0084f1fb2ed61965b94f">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/classes-6b0ba064c95549d4ea55f7e58de541338c4584d7.jar" />
+    </item>
+    <item
+        jar="/home/flavio/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/library-2.4.0-b109daaf07a97a48c175aec53cb5963d9f6b2d49.jar" />
+    </item>
+    <item
+        jar="/home/flavio/dev/ponto/ponto/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.5/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="12b228574de7977e56e41cbfb385b1463bbdb41a">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/classes-6b6b6e2d1717451d0748dd2d676a05ccc269b926.jar" />
+    </item>
+    <item
+        jar="/home/flavio/dev/ponto/ponto/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/classes-662ea7ce6e31518df459f42b4566bf3343750f75.jar" />
+    </item>
+    <item
+        jar="/home/flavio/dev/ponto/ponto/libs/Parse-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe739334780fe321141e62720822c2d456061899">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/Parse-1.9.2-4d9025223572709ee6c2792f163b21da412768a4.jar" />
+    </item>
+    <item
+        jar="/home/flavio/dev/ponto/ponto/libs/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-13e39b247550faff5d8b9b253fbc42edd066f366.jar" />
+    </item>
+    <item
+        jar="/home/flavio/dev/ponto/ponto/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/classes-de8ba988a52b090fce0aa4d72fdd5bd72840f7d0.jar" />
+    </item>
+    <item
+        jar="/home/flavio/dev/ponto/ponto/libs/mpandroidchartlibrary-2-1-0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e8e579486323fc12433aca39b93329498a3bbc2d">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/mpandroidchartlibrary-2-1-0-5b9cb6c357e7432f2567609f12ff3c2155ceedf8.jar" />
+    </item>
+    <item
+        jar="/home/flavio/dev/ponto/ponto/libs/xstream-android.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2f3f92e0bc6e95a3a6d051baff3f39aafd76d299">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/xstream-android-f1dd8e406269e4ea334f94688115e9c28eaf3f7b.jar" />
+    </item>
+    <item
+        jar="/home/flavio/dev/ponto/ponto/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-18a506bf44e191282acfff4d63a0f014492cb7ce.jar" />
+    </item>
+    <item
+        jar="/home/flavio/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-753291db148a6a4b26651870c423f560ffa2c751.jar" />
+    </item>
+    <item
+        jar="/home/flavio/dev/ponto/ponto/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/classes-d669d22c921e2c891d368d7a915d024b987ca737.jar" />
+    </item>
+    <item
+        jar="/home/flavio/dev/ponto/ponto/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/home/flavio/dev/ponto/ponto/build/intermediates/pre-dexed/debug/classes-43fefcfeb195c2df90bc8aefd79f475d130735b2.jar" />
+    </item>
+
+</items>

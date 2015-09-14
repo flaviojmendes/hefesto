@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mdl_navigation_drawer_open">Ouvrir le menu de gauche</string>
+    <string name="mdl_navigation_drawer_close">Fermer le menu de gauche</string>
+    <string name="mdl_settings">Paramètres</string>
+    <string name="mdl_help_and_feedback">Aide et commentaires</string>
+    <string name="mdl_icon">Icône</string>
+    <string name="mdl_manage_accounts">Gérer les comptes</string>
+    <string name="mdl_add_account">Ajouter un compte</string>
+    <string name="mdl_search">Rechercher</string>
+    <string name="mdl_back">Retour</string>
+
+</resources>
