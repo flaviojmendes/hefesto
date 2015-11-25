@@ -18,7 +18,7 @@ import com.parse.ParseQuery;
 public class VerificarAdicionarHistoricoTask extends AsyncTask<String, Integer, String> {
 
 	private Activity activity;
-	
+
 	public VerificarAdicionarHistoricoTask(Activity activity) {
 		this.activity = activity;
 	}
@@ -46,7 +46,7 @@ public class VerificarAdicionarHistoricoTask extends AsyncTask<String, Integer, 
 								break;
 							}
 						}
-		        		
+
 		        		if(!hasHistorico) {
 		        			ParseObject horario = new ParseObject("Horario");
 		        			horario.put("uidUser", uid);
@@ -56,7 +56,7 @@ public class VerificarAdicionarHistoricoTask extends AsyncTask<String, Integer, 
 		        		}
 		        	}
 		        } else {
-		        	
+
 		        }
 		    }
 		});
@@ -64,16 +64,16 @@ public class VerificarAdicionarHistoricoTask extends AsyncTask<String, Integer, 
 		return params[0];
 	}
 
-	
+
 	@Override
 	protected void onPostExecute(final String uid) {
 		super.onPostExecute(uid);
-		
 
-		
-		
-		
-		
+
+
+
+
+
 	}
 	
 }

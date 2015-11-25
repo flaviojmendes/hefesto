@@ -5,4 +5,4 @@
     android:layout_height="match_parent"
     tools:context="com.fjmob.ponto.NFCActivity"
     tools:ignore="MergeRootFrame" />
-<!-- From: file:/home/flavio/dev/ponto/ponto/src/main/res/layout/activity_nfc.xml -->
+<!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/layout/activity_nfc.xml -->

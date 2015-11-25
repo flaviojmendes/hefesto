@@ -14,4 +14,4 @@
         <tech>android.nfc.tech.NfcB</tech>
         <tech>android.nfc.tech.Ndef</tech>
     </tech-list>
-</resources><!-- From: file:/home/flavio/Dev/ponto/ponto/src/main/res/xml/nfc_check_list.xml -->
+</resources><!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/xml/nfc_check_list.xml -->

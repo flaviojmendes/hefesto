@@ -92,16 +92,16 @@ public class VerificarAdicionarMoodTask extends AsyncTask<String, Integer, Strin
 		} return account;
 	}
 
-	
+
 	@Override
 	protected void onPostExecute(final String uid) {
 		super.onPostExecute(uid);
-		
 
-		
-		
-		
-		
+
+
+
+
+
 	}
 	
 }

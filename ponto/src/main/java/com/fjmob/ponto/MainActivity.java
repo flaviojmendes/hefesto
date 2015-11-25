@@ -37,6 +37,8 @@ import com.fjmob.ponto.handler.TimerHandler;
 import com.fjmob.ponto.persistence.FaltaDAO;
 import com.fjmob.ponto.persistence.HistoricoDAO;
 import com.fjmob.ponto.persistence.MoodDAO;
+import com.fjmob.ponto.task.FazerBackupTask;
+import com.fjmob.ponto.task.ImportarBackupTask;
 import com.fjmob.ponto.task.VerificarAdicionarHistoricoTask;
 import com.fjmob.ponto.task.VerificarAdicionarMoodTask;
 import com.fjmob.ponto.task.VerificarRemoverHistoricoTask;
@@ -182,9 +184,9 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		int id = item.getItemId();
-		
 
 
+		final Activity activity = this;
 
 		if (id == R.id.action_exportar) {
 
@@ -194,19 +196,12 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
 				public void onClick(DialogInterface dialog, int which) {
 					switch (which){
 						case DialogInterface.BUTTON_POSITIVE:
-							List<Historico> historicos = HistoricoDAO.getInstance(getApplicationContext()).recuperarTodos();
-							List<Mood> moods = MoodDAO.getInstance(getApplicationContext()).recuperarTodos();
-							List<Falta> faltas = FaltaDAO.getInstance(getApplicationContext()).recuperarTodos();
 
+							String deviceId = Secure.getString(getApplicationContext().getContentResolver(),
+									Secure.ANDROID_ID);
 
-							try {
-								ManipulacaoDadosHandler handler = new ManipulacaoDadosHandler();
-								File file = handler.exportarDados(historicos, moods, faltas);
-								Toast.makeText(getApplicationContext(), getResources().getString(R.string.arquivo_salvo) + file.getAbsolutePath(), Toast.LENGTH_LONG).show();
-
-							} catch (IOException e) {
-								e.printStackTrace();
-							}
+							FazerBackupTask bkpTask = new FazerBackupTask(activity);
+							bkpTask.execute(deviceId);
 
 							break;
 
@@ -230,21 +225,33 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
 		if (id == R.id.action_importar) {
 
 
+
 			DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
 				@Override
 				public void onClick(DialogInterface dialog, int which) {
 					switch (which){
 						case DialogInterface.BUTTON_POSITIVE:
-							ManipulacaoDadosHandler handler = new ManipulacaoDadosHandler();
-							handler.importarDados(getApplicationContext());
-							handler.importarDadosMoods(getApplicationContext());
-							handler.importarDadosFaltas(getApplicationContext());
 
-							removerOutrosFragments();
-							FragmentTransaction frgTrns = getFragmentManager().beginTransaction()
-									.replace(R.id.container, new HistoricoFragment());
-							frgTrns.addToBackStack(getResources().getString(R.string.action_main));
-							frgTrns.commit();
+
+							String deviceId = Secure.getString(getApplicationContext().getContentResolver(),
+									Secure.ANDROID_ID);
+
+							ImportarBackupTask bkpTask = new ImportarBackupTask(activity);
+							bkpTask.execute(deviceId);
+
+
+//
+//
+//							ManipulacaoDadosHandler handler = new ManipulacaoDadosHandler();
+//							handler.importarDados(getApplicationContext());
+//							handler.importarDadosMoods(getApplicationContext());
+//							handler.importarDadosFaltas(getApplicationContext());
+//
+//							removerOutrosFragments();
+//							FragmentTransaction frgTrns = getFragmentManager().beginTransaction()
+//									.replace(R.id.container, new HistoricoFragment());
+//							frgTrns.addToBackStack(getResources().getString(R.string.action_main));
+//							frgTrns.commit();
 
 							break;
 
@@ -267,8 +274,6 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
 		}
 
 
-
-		final Activity activity = this;
 
 		if(id == R.id.action_excluir_tudo) {
 			DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {

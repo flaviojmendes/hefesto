@@ -9,4 +9,4 @@
         android:fromYDelta="30%p"
         android:toYDelta="0"
         android:duration="300" />
-</set><!-- From: file:/home/flavio/dev/ponto/ponto/src/main/res/anim/jump_from_down.xml -->
+</set><!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/anim/jump_from_down.xml -->

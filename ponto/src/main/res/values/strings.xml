@@ -15,7 +15,8 @@
     <string name="tempo_trabalhado">TEMPO TRABALHADO</string>
     <string name="horario_salvo_sucesso">Horário salvo com sucesso.</string>
     <string name="configuracoes_salvas_sucesso">Configurações salvas com sucesso.</string>
-    <string name="arquivo_salvo">Backup salvo em </string>
+    <string name="arquivo_salvo">Backup salvo!</string>
+    <string name="arquivo_importado">Importação completa!</string>
     <string name="fim_timer">Já pode ir!</string>
     <string name="ajustar_hora">AJUSTAR P/\n1 HORA</string>
     <string name="ajustar_hora_confirmacao">Tem certeza que quer ajustar o intervalo para 1 hora?</string>

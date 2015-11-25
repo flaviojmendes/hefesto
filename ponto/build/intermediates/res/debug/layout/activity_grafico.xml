@@ -5,4 +5,4 @@
     android:layout_height="match_parent"
     tools:context="com.fjmob.ponto.GraficoActivity"
     tools:ignore="MergeRootFrame" />
-<!-- From: file:/home/flavio/dev/ponto/ponto/src/main/res/layout/activity_grafico.xml -->
+<!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/layout/activity_grafico.xml -->

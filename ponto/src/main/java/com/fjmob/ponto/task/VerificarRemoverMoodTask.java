@@ -61,12 +61,12 @@ public class VerificarRemoverMoodTask extends AsyncTask<String, Integer, String>
 	@Override
 	protected void onPostExecute(final String uid) {
 		super.onPostExecute(uid);
-		
 
-		
-		
-		
-		
+
+
+
+
+
 	}
 	
 }

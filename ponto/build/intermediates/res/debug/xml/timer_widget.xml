@@ -5,4 +5,4 @@
    android:updatePeriodMillis="0" 
    android:minHeight="40dp" 
    android:initialLayout="@layout/timer_widget">
-</appwidget-provider><!-- From: file:/home/flavio/dev/ponto/ponto/src/main/res/xml/timer_widget.xml -->
+</appwidget-provider><!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/xml/timer_widget.xml -->

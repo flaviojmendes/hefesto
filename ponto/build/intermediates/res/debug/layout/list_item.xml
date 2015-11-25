@@ -25,4 +25,4 @@
     android:textColor="@color/icons"
     android:background="?android:attr/activatedBackgroundIndicator"
     android:minHeight="?android:attr/listPreferredItemHeightSmall" />
-<!-- From: file:/home/flavio/dev/ponto/ponto/src/main/res/layout/list_item.xml -->
+<!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/layout/list_item.xml -->

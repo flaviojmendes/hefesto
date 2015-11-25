@@ -3,4 +3,4 @@
     android:id="@+id/toolbar"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/primary_dark"/><!-- From: file:/home/flavio/Dev/ponto/ponto/src/main/res/layout/toolbar.xml -->
+    android:background="@color/primary_dark"/><!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/layout/toolbar.xml -->

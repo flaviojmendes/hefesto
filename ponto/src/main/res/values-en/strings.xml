@@ -15,7 +15,7 @@
     <string name="tempo_trabalhado">WORKED TODAY</string>
     <string name="horario_salvo_sucesso">Saved successfully.</string>
     <string name="configuracoes_salvas_sucesso">Saved successfully.</string>
-    <string name="arquivo_salvo">Backup saved at </string>
+    <string name="arquivo_salvo">Backup saved!</string>
     <string name="fim_timer">Can go now!</string>
     <string name="ajustar_hora">1 HOUR</string>
     <string name="ajustar_hora_confirmacao">Are you sure you want to adjust the interval to 1 hour?</string>
@@ -72,4 +72,5 @@
     <string name="minutos">Minutes:</string>
     <string name="exportar_confirmacao">Do you want to export your data? It will overrite any previous backup.</string>
     <string name="importar_confirmacao">Do you want to import previous data? This operation cannot be undone.</string>
+    <string name="arquivo_importado">Backup completed!</string>
 </resources>

@@ -17,7 +17,7 @@ import com.parse.ParseQuery;
 public class VerificarRemoverHistoricoTask extends AsyncTask<String, Integer, String> {
 
 	private Activity activity;
-	
+
 	public VerificarRemoverHistoricoTask(Activity activity) {
 		this.activity = activity;
 	}
@@ -61,12 +61,12 @@ public class VerificarRemoverHistoricoTask extends AsyncTask<String, Integer, St
 	@Override
 	protected void onPostExecute(final String uid) {
 		super.onPostExecute(uid);
-		
 
-		
-		
-		
-		
+
+
+
+
+
 	}
 	
 }

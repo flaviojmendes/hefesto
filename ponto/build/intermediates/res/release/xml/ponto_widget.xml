@@ -5,4 +5,4 @@
    android:updatePeriodMillis="0" 
    android:minHeight="40dp" 
    android:initialLayout="@layout/ponto_widget">
-</appwidget-provider><!-- From: file:/home/flavio/Dev/ponto/ponto/src/main/res/xml/ponto_widget.xml -->
+</appwidget-provider><!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/xml/ponto_widget.xml -->

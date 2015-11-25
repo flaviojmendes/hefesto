@@ -2,12 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.fjmob.ponto"
     android:installLocation="internalOnly"
-    android:versionCode="64"
-    android:versionName="2.9.1" >
+    android:versionCode="65"
+    android:versionName="2.10.0" >
 
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="22" />
+        android:targetSdkVersion="20" />
 
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />

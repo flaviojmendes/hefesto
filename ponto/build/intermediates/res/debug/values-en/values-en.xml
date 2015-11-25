@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/flavio/dev/ponto/ponto/src/main/res/values-en/strings.xml -->
+    <!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/values-en/strings.xml -->
     <eat-comment/>
     <string name="action_adicionar_falta">Add Absence</string>
     <string name="action_adicionar_horario">Add Time</string>
@@ -22,7 +22,8 @@
     <string name="apagar_mood_confirmacao">Do you want to delete this mood?</string>
     <string name="apagar_tudo_confirmacao">Do you want to delete full history?</string>
     <string name="app_name">Hefesto</string>
-    <string name="arquivo_salvo">Backup saved at </string>
+    <string name="arquivo_importado">Backup completed!</string>
+    <string name="arquivo_salvo">Backup saved!</string>
     <string name="bater_ponto">Checkin</string>
     <string name="carregando">loading..</string>
     <string name="configuracoes_salvas_sucesso">Saved successfully.</string>

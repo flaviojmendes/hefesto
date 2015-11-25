@@ -20,6 +20,25 @@ import com.thoughtworks.xstream.XStream;
 
 public class ManipulacaoDadosHandler {
 
+	public String exportarHistoricos(List<Historico> registros) {
+		XStream xStream = new XStream();
+		String xml = xStream.toXML(registros);
+		return xml;
+	}
+
+	public String exportarMoods(List<Mood> registros) {
+		XStream xStream = new XStream();
+		String xml = xStream.toXML(registros);
+		return xml;
+	}
+
+	public String exportarFaltas(List<Falta> registros) {
+		XStream xStream = new XStream();
+		String xml = xStream.toXML(registros);
+		return xml;
+	}
+
+
 	public File exportarDados(List<Historico> historicos, List<Mood> moods, List<Falta> faltas) throws IOException {
 		XStream xStream = new XStream();
 

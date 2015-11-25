@@ -43,8 +43,8 @@ public class BaterPontoTask extends AsyncTask<String, Integer, Boolean>{
 
 		VerificarAdicionarHistoricoTask histTask = new VerificarAdicionarHistoricoTask(activity);
 		histTask.execute(uid);
-		
-		
+
+
 		return true;
 	}
 

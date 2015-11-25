@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/flavio/dev/ponto/ponto/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-es/values-es.xml -->
+    <!-- From: file:/home/flavio/dev/hefesto/ponto/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-es/values-es.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
@@ -15,7 +15,7 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
-    <!-- From: file:/home/flavio/dev/ponto/ponto/src/main/res/values-es/strings.xml -->
+    <!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/values-es/strings.xml -->
     <eat-comment/>
     <string name="action_adicionar_falta">Adicionar Falta</string>
     <string name="action_adicionar_horario">Adicionar Horário</string>
@@ -37,7 +37,8 @@
     <string name="apagar_mood_confirmacao">Tem certeza que quer apagar este humor?</string>
     <string name="apagar_tudo_confirmacao">Tem certeza que quer apagar todo o histórico?</string>
     <string name="app_name">Hefesto</string>
-    <string name="arquivo_salvo">Backup salvo em </string>
+    <string name="arquivo_importado">Backup importado!</string>
+    <string name="arquivo_salvo">Backup salvo!</string>
     <string name="bater_ponto">BATER PONTO</string>
     <string name="carregando">carregando..</string>
     <string name="configuracoes_salvas_sucesso">Configurações salvas com sucesso.</string>

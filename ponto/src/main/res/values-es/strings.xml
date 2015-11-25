@@ -15,7 +15,7 @@
     <string name="tempo_trabalhado">TEMPO TRABALHADO</string>
     <string name="horario_salvo_sucesso">Horário salvo com sucesso.</string>
     <string name="configuracoes_salvas_sucesso">Configurações salvas com sucesso.</string>
-    <string name="arquivo_salvo">Backup salvo em </string>
+    <string name="arquivo_salvo">Backup salvo!</string>
     <string name="fim_timer">Já pode ir!</string>
     <string name="ajustar_hora">1 HORA</string>
     <string name="ajustar_hora_confirmacao">Tem certeza que quer ajustar o intervalo para 1 hora?</string>
@@ -72,4 +72,5 @@
     <string name="minutos">Minutos:</string>
     <string name="importar_confirmacao">Tem certeza que quer importar os registros salvos? Essa operação não poderá ser desfeita.</string>
     <string name="exportar_confirmacao">Tem certeza que exportar os registros atuais? Essa ação sobrescreverá o backup atual.</string>
+    <string name="arquivo_importado">Backup importado!</string>
 </resources>

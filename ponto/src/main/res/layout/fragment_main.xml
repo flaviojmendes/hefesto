@@ -134,6 +134,12 @@
 		        android:layout_gravity="center_vertical|center_horizontal"
 	     	    android:src="@drawable/ic_chart"
 	     	    />
+				<com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+					android:id="@+id/loadingIcon"
+					android:layout_width="32dp"
+					android:layout_height="32dp"
+					android:background="@color/icons"
+					android:visibility="invisible"/>
 	        
 	        </LinearLayout>
 	        

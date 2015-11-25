@@ -6,4 +6,4 @@
     android:listSelector="@drawable/list_bg"
     tools:context=".NavigationDrawerFragment"
     />
-<!-- From: file:/home/flavio/dev/ponto/ponto/src/main/res/layout/fragment_navigation_drawer.xml -->
+<!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/layout/fragment_navigation_drawer.xml -->

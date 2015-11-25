@@ -21,4 +21,4 @@ tools:context=".MainActivity">
     android:layout_gravity="start" android:name="com.fjmob.ponto.NavigationDrawerFragment"
     tools:layout="@layout/fragment_navigation_drawer" />
 
-</android.support.v4.widget.DrawerLayout><!-- From: file:/home/flavio/Dev/ponto/ponto/src/main/res/layout/activity_main.xml -->
+</android.support.v4.widget.DrawerLayout><!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/layout/activity_main.xml -->
