@@ -5,6 +5,8 @@
       <root url="file://$PROJECT_DIR$/ponto/build/intermediates/exploded-aar/com.github.clans/fab/1.5.3/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.clans/fab/1.5.3/9a4b3691450e21c63712bfb28c1359044df91e1e/fab-1.5.3-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

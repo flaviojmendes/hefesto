@@ -16,6 +16,7 @@
     <string name="add_hora_explc">Here you can add registers that you forgot.</string>
     <string name="ajustar_hora">1 HOUR</string>
     <string name="ajustar_hora_confirmacao">Are you sure you want to adjust the interval to 1 hour?</string>
+    <string name="apagar_comment_confirmacao">Do you want to delete this comment?</string>
     <string name="apagar_dia_confirmacao">Do you want to delete full day?</string>
     <string name="apagar_falta_confirmacao">Do you want to delete this absence?</string>
     <string name="apagar_hora_confirmacao">Do you want to delete this record?</string>
@@ -61,6 +62,7 @@
     <string name="title_activity_nfc">NFCActivity</string>
     <string name="title_activity_ranking">Ranking</string>
     <string name="title_notification_jornada">Yayy!</string>
+    <string name="txt_comentario">Comment</string>
     <string name="txt_est_saida">est. exit</string>
     <string name="txt_horas_trabalhadas">Worked Hours</string>
     <string name="txt_mood_title">How are you?</string>
@@ -68,7 +70,7 @@
     <string name="usuarios">users</string>
     <string name="vc_esta">You are</string>
     <string name="vc_faltou">YOU WERE ABSENT</string>
-    <string name="vc_possui_saldo">You balance is better than</string>
+    <string name="vc_possui_saldo">You more than</string>
     <string name="voce">You</string>
     <string name="widget_bater_ponto">Register Time</string>
     <string name="widget_contagem_regressiva">Hefesto (Timer)</string>

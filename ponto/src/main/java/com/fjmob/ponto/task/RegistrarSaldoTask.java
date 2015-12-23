@@ -38,7 +38,7 @@ public class RegistrarSaldoTask extends AsyncTask<String, Integer, String> {
 		
 		ParseQuery<ParseObject> query = ParseQuery.getQuery("SaldoUsuario");
 		query.whereEqualTo("uidUser", uid);
-		
+
 		query.findInBackground(new FindCallback<ParseObject>() {
 		    public void done(List<ParseObject> saldos, ParseException e) {
 		        if (e == null) {
@@ -55,10 +55,10 @@ public class RegistrarSaldoTask extends AsyncTask<String, Integer, String> {
 	        			saldo.put("emailUser", email);
 	        			saldo.saveInBackground();
 		        	}
-		        	
-		        	
+
+
 		        } else {
-		        	
+
 		        }
 		    }
 		});

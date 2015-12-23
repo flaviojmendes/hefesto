@@ -5,6 +5,8 @@
       <root url="file://$PROJECT_DIR$/matlib/build/intermediates/exploded-aar/tk.zielony/carbon/0.6.0/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/tk.zielony/carbon/0.6.0/8ce156ccec750f1bd3366423bad98ebcdf5be190/carbon-0.6.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

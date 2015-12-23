@@ -34,6 +34,7 @@ import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
@@ -64,6 +65,7 @@ public class HistoricoHandler {
 	private TextView saldoTotal;
 	private TextView total;
 	private Drawable drwbMood;
+	private Drawable drwbAdd;
 	private Drawable drwbClose;
 	private Drawable drwbEnter;
 	private Drawable drwbExit;
@@ -73,6 +75,7 @@ public class HistoricoHandler {
 	private Typeface robotoRegular;
 	private LayoutParams lytWrapWrap;
 	private LayoutParams lytMatchMatch;
+	private LayoutParams lytMatchMatchComments;
     private int scndryColor;
     private int primaryColor;
     private int primaryTextColor;
@@ -100,6 +103,7 @@ public class HistoricoHandler {
 
 		this.drwbClose = activity.getResources().getDrawable(R.drawable.ic_close);
 		this.drwbMood = activity.getResources().getDrawable(R.drawable.ic_mood);
+		this.drwbAdd = activity.getResources().getDrawable(R.drawable.ic_add);
 		this.drwbEnter = activity.getResources().getDrawable(R.drawable.enter);
 		this.drwbExit = activity.getResources().getDrawable(R.drawable.exit);
 		this.scale = activity.getResources().getDisplayMetrics().density;
@@ -108,6 +112,7 @@ public class HistoricoHandler {
 		this.robotoRegular = Typeface.createFromAsset(activity.getAssets(), "fonts/Roboto-Regular.ttf");
 		this.lytWrapWrap = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
 		this.lytMatchMatch = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
+		this.lytMatchMatchComments = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
         this.scndryColor = activity.getResources().getColor(R.color.secondary_text);
         this.primaryColor = activity.getResources().getColor(R.color.primary);
         this.primaryTextColor = activity.getResources().getColor(R.color.primary_text);
@@ -195,15 +200,6 @@ public class HistoricoHandler {
 		linearCard.setLayoutParams(lytMatchMatch);
 		linearCard.setOrientation(LinearLayout.HORIZONTAL);
 
-//		RoundedLetterView rlv = new RoundedLetterView(activity);
-//		rlv.setLayoutParams(lytWrapWrap);
-//		rlv.getLayoutParams().width = (int) (scale*56);
-//		rlv.getLayoutParams().height = (int) (scale*56);
-//		rlv.setBackgroundColor(Color.BLUE);
-//		rlv.setTitleText("A");
-//
-//
-//		linearCard.addView(rlv);
 
 		addHorariosDia(linearCard, entry, font);
 		addFaltaDia(linearCard, entry, font);
@@ -219,10 +215,12 @@ public class HistoricoHandler {
 		linearLayout.addView(cardView);
 	}
 
-	private void addMood(final float scale, LinearLayout linearVertCard, String dateString) {
+	private void addMood(final float scale, LinearLayout linearVertCard, final String dateString) {
 		LinearLayout linearMood = new LinearLayout(activity);
-		linearMood.setLayoutParams(lytMatchMatch);
-		linearMood.setOrientation(LinearLayout.HORIZONTAL);
+		lytMatchMatchComments.topMargin = (int) (10 * scale);
+		linearMood.setLayoutParams(lytMatchMatchComments);
+
+		linearMood.setOrientation(LinearLayout.VERTICAL);
 		linearMood.setGravity(Gravity.END|Gravity.CENTER_VERTICAL);
 
 		int dpWidthInPx  = (int) (24 * scale);
@@ -238,26 +236,39 @@ public class HistoricoHandler {
 				LinearLayout linearMoodHour = new LinearLayout(activity);
 				LayoutParams layoutParams = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
 				layoutParams.leftMargin = (int) (10*scale);
-				layoutParams.gravity = Gravity.CENTER_HORIZONTAL;
+				layoutParams.rightMargin = (int) (10*scale);
+				layoutParams.topMargin = (int) (5*scale);
+				layoutParams.gravity = Gravity.START;
 				linearMoodHour.setLayoutParams(layoutParams);
-				linearMoodHour.setOrientation(LinearLayout.VERTICAL);
-				linearMoodHour.setGravity(Gravity.CENTER_HORIZONTAL);
+				linearMoodHour.setOrientation(LinearLayout.HORIZONTAL);
+				linearMoodHour.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
 				
-				TextView txtHoraMood = new TextView(activity);
-				txtHoraMood.setText(sdfHoraMin.format(mood.getDataGravacao()));
-				txtHoraMood.setTextColor(scndryColor);
-				LayoutParams layoutText = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
-				layoutText.gravity = Gravity.CENTER_HORIZONTAL;
-				txtHoraMood.setLayoutParams(layoutText);
-				txtHoraMood.setTypeface(robotoMedium);
-				txtHoraMood.setGravity(Gravity.CENTER_HORIZONTAL|Gravity.CENTER_VERTICAL);
-				txtHoraMood.setTextSize(TypedValue.COMPLEX_UNIT_SP,9);
-				linearMoodHour.addView(txtHoraMood);
-				
-				ImageView imageMood = new ImageView(activity);
-				imageMood.setLayoutParams(layoutParamsImgMood);
-				imageMood.setImageResource(activity.getResources().getIdentifier(mood.getMood(), "drawable", activity.getPackageName()));
-				imageMood.setOnLongClickListener(new OnLongClickListener() {
+//				TextView txtHoraMood = new TextView(activity);
+//				txtHoraMood.setText(sdfHoraMin.format(mood.getDataGravacao()));
+//				txtHoraMood.setTextColor(scndryColor);
+//				LayoutParams layoutText = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
+//				layoutText.gravity = Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL;
+//				txtHoraMood.setLayoutParams(layoutText);
+//				txtHoraMood.setTypeface(robotoMedium);
+//				txtHoraMood.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
+//				txtHoraMood.setTextSize(TypedValue.COMPLEX_UNIT_SP, 9);
+//				linearMoodHour.addView(txtHoraMood);
+
+
+//				LinearLayout linearRuler = new LinearLayout(activity);
+//				LayoutParams lytParams = new LayoutParams((int)(scale * 1), (int) (10*scale));
+//				lytParams.setMargins((int) (3 * scale), 0, (int) (3 * scale), 0);
+//				linearRuler.setLayoutParams(lytParams);
+//				linearRuler.setOrientation(LinearLayout.VERTICAL);
+//				linearRuler.setBackgroundColor(dividerColor);
+//				linearMoodHour.addView(linearRuler);
+
+
+				TextView txtComment = new TextView(activity);
+				txtComment.setText(mood.getComentario());
+				linearMoodHour.addView(txtComment);
+
+				linearMoodHour.setOnLongClickListener(new OnLongClickListener() {
 
 					@Override
 					public boolean onLongClick(View v) {
@@ -265,94 +276,114 @@ public class HistoricoHandler {
 						DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
 							@Override
 							public void onClick(DialogInterface dialog, int which) {
-								switch (which){
-								case DialogInterface.BUTTON_POSITIVE:
-									MoodDAO.getInstance(activity).deletar(mood);
+								switch (which) {
+									case DialogInterface.BUTTON_POSITIVE:
+										MoodDAO.getInstance(activity).deletar(mood);
 
-									LinearLayout linearLayout = (LinearLayout) activity.findViewById(R.id.listaHorarios);
-									linearLayout.removeAllViews();
+										LinearLayout linearLayout = (LinearLayout) activity.findViewById(R.id.listaHorarios);
+										linearLayout.removeAllViews();
 
 
-									TreeMap<String, List<Historico>> mapaHistorico = popularHistorico(robotoLight);
+										TreeMap<String, List<Historico>> mapaHistorico = popularHistorico(robotoLight);
 
-									TimerHandler timerHandler = new TimerHandler(Cronometro.getInstance(activity), activity);
-									timerHandler.verificaIniciaTimer(mapaHistorico);
-									calcularSaldoTotal(mapaHistorico);
+										TimerHandler timerHandler = new TimerHandler(Cronometro.getInstance(activity), activity);
+										timerHandler.verificaIniciaTimer(mapaHistorico);
+										calcularSaldoTotal(mapaHistorico);
 
-									break;
+										break;
 
-								case DialogInterface.BUTTON_NEGATIVE:
-									break;
+									case DialogInterface.BUTTON_NEGATIVE:
+										break;
 								}
 							}
 						};
 
 						AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-						builder.setMessage(activity.getResources().getString(R.string.apagar_mood_confirmacao))
-						.setPositiveButton(activity.getResources().getString(R.string.sim), dialogClickListener)
-						.setNegativeButton(activity.getResources().getString(R.string.nao), dialogClickListener).show();
+						builder.setMessage(activity.getResources().getString(R.string.apagar_comment_confirmacao))
+								.setPositiveButton(activity.getResources().getString(R.string.sim), dialogClickListener)
+								.setNegativeButton(activity.getResources().getString(R.string.nao), dialogClickListener).show();
 
 						return true;
 					}
 				});
-				
-				
-				
-				linearMoodHour.addView(imageMood);
-				
+
+
 				linearMood.addView(linearMoodHour);
 			}
 			
 		}
-		
-		
-		
-		LinearLayout linearRuler = new LinearLayout(activity);
-		LayoutParams lytParams = new LayoutParams((int)(scale * 1), (int) (24*scale));
-		lytParams.setMargins((int) (10 * scale), 0, 0, 0);
-		linearRuler.setLayoutParams(lytParams);
-		linearRuler.setOrientation(LinearLayout.VERTICAL);
-		linearRuler.setBackgroundColor(dividerColor);
-		linearMood.addView(linearRuler);
-		
-		
-		// Icone adicionar Mood
+
+		// Icone adicionar Comentario
 		LayoutParams layoutParamsImg = new LayoutParams(dpWidthInPx, dpHeightInPx);
 		layoutParamsImg.leftMargin = (int) (5*scale);
 		layoutParamsImg.gravity = Gravity.END | Gravity.CENTER_VERTICAL;
 		ImageView imageView = new ImageView(activity);
 		imageView.setLayoutParams(layoutParamsImg);
-		imageView.setImageDrawable(drwbMood);
+		imageView.setImageDrawable(drwbAdd);
+
+		final String dateGravarComment = dateString;
+
 		imageView.setOnClickListener(new OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
-                hapticFeedback();
+			@Override
+			public void onClick(View v) {
+				hapticFeedback();
 
-                AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+				AlertDialog.Builder builder = new AlertDialog.Builder(activity);
 
-                LayoutInflater inflater = activity.getLayoutInflater();
+				LayoutInflater inflater = activity.getLayoutInflater();
+
+				final View dialogComment = inflater.inflate(R.layout.comment, null);
+				builder.setView(dialogComment)
+						// Add action buttons
+						.setNegativeButton(R.string.sair, new DialogInterface.OnClickListener() {
+							public void onClick(DialogInterface dialog, int id) {
+								dialog.cancel();
+							}
+						}).setPositiveButton(R.string.salvar, new DialogInterface.OnClickListener() {
+							@Override
+							public void onClick(DialogInterface dialog, int which) {
+
+								EditText comment = (EditText) dialogComment.findViewById(R.id.txt_comment);
+
+								Mood mood = new Mood();
+								mood.setComentario(comment.getText().toString());
+
+								try {
+									mood.setDataGravacao(sdfData.parse(dateGravarComment));
+								} catch (ParseException e) {
+									mood.setDataGravacao(new Date());
+								}
+
+								MoodDAO.getInstance(activity).salvar(mood);
+
+								dialog.dismiss();
 
 
-                builder.setView(inflater.inflate(R.layout.mood, null))
-                        // Add action buttons
-                        .setNegativeButton(R.string.sair, new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                dialog.cancel();
-                            }
-                        });
-
-                // 3. Get the AlertDialog from create()
-                AlertDialog dialog = builder.create();
+								LinearLayout linearLayout = (LinearLayout) activity.findViewById(R.id.listaHorarios);
+								linearLayout.removeAllViews();
 
 
-                dialog.show();
+								TreeMap<String, List<Historico>> mapaHistorico = popularHistorico(robotoLight);
 
-                TextView titleMood = (TextView) dialog.findViewById(R.id.title_mood);
-                titleMood.setTypeface(robotoRegular);
+								TimerHandler timerHandler = new TimerHandler(Cronometro.getInstance(activity), activity);
+								timerHandler.verificaIniciaTimer(mapaHistorico);
+								calcularSaldoTotal(mapaHistorico);
 
-            }
-        });
+							}
+				});
+
+				// 3. Get the AlertDialog from create()
+				AlertDialog dialog = builder.create();
+
+
+				dialog.show();
+
+				TextView titleComment = (TextView) dialog.findViewById(R.id.title_comment);
+				titleComment.setTypeface(robotoRegular);
+
+			}
+		});
 
 		linearMood.addView(imageView);
 
@@ -1137,7 +1168,7 @@ public class HistoricoHandler {
         String deviceId = Secure.getString(activity.getContentResolver(),
                 Secure.ANDROID_ID);
 
-        RegistrarSaldoTask regSaldoTask = new RegistrarSaldoTask(activity, tempoSaldo);
+        RegistrarSaldoTask regSaldoTask = new RegistrarSaldoTask(activity, tempoPresente);
         regSaldoTask.execute(deviceId);
 
 		if(tempoSaldo < 0) {

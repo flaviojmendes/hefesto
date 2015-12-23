@@ -55,7 +55,12 @@ public class VerificarAdicionarMoodTask extends AsyncTask<String, Integer, Strin
 							moodVo.put("idMood", mood.getId());
 							moodVo.put("dtMood", mood.getDataGravacao());
 							moodVo.put("email", getEmail(activity));
-							moodVo.put("txtMood", mood.getMood());
+							if(mood.getMood() != null) {
+								moodVo.put("txtMood", mood.getMood());
+							}
+							if(mood.getComentario() != null) {
+								moodVo.put("comment", mood.getComentario());
+							}
 
 							moodVo.saveInBackground();
 		        		}

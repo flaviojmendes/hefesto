@@ -8,13 +8,13 @@ package com.github.pavlospt.roundedletterview;
 
 public final class R {
 	public static final class attr {
-		public static final int rlv_backgroundColorValue = 0x7f0100b7;
-		public static final int rlv_titleColor = 0x7f0100b6;
-		public static final int rlv_titleSize = 0x7f0100b5;
-		public static final int rlv_titleText = 0x7f0100b4;
+		public static final int rlv_backgroundColorValue = 0x7f0100ba;
+		public static final int rlv_titleColor = 0x7f0100b9;
+		public static final int rlv_titleSize = 0x7f0100b8;
+		public static final int rlv_titleText = 0x7f0100b7;
 	}
 	public static final class styleable {
-		public static final int[] RoundedLetterView = { 0x7f0100b4, 0x7f0100b5, 0x7f0100b6, 0x7f0100b7 };
+		public static final int[] RoundedLetterView = { 0x7f0100b7, 0x7f0100b8, 0x7f0100b9, 0x7f0100ba };
 		public static final int RoundedLetterView_rlv_backgroundColorValue = 3;
 		public static final int RoundedLetterView_rlv_titleColor = 2;
 		public static final int RoundedLetterView_rlv_titleSize = 1;

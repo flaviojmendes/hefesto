@@ -240,19 +240,6 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
 							bkpTask.execute(deviceId);
 
 
-//
-//
-//							ManipulacaoDadosHandler handler = new ManipulacaoDadosHandler();
-//							handler.importarDados(getApplicationContext());
-//							handler.importarDadosMoods(getApplicationContext());
-//							handler.importarDadosFaltas(getApplicationContext());
-//
-//							removerOutrosFragments();
-//							FragmentTransaction frgTrns = getFragmentManager().beginTransaction()
-//									.replace(R.id.container, new HistoricoFragment());
-//							frgTrns.addToBackStack(getResources().getString(R.string.action_main));
-//							frgTrns.commit();
-
 							break;
 
 						case DialogInterface.BUTTON_NEGATIVE:

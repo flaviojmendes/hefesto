@@ -5,6 +5,8 @@
       <root url="file://$PROJECT_DIR$/matlib/build/intermediates/exploded-aar/com.joooonho/selectableroundedimageview/1.0.1/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.joooonho/selectableroundedimageview/1.0.1/f57a957671f19826ddbd55500614a68c303e7298/selectableroundedimageview-1.0.1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
