@@ -1,7 +1,5 @@
 package com.fjmob.ponto;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.Date;
 import java.util.List;
 import java.util.Map.Entry;
@@ -25,25 +23,18 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.fjmob.ponto.component.Cronometro;
-import com.fjmob.ponto.entity.Falta;
 import com.fjmob.ponto.entity.Historico;
-import com.fjmob.ponto.entity.Mood;
 import com.fjmob.ponto.handler.HistoricoHandler;
-import com.fjmob.ponto.handler.ManipulacaoDadosHandler;
 import com.fjmob.ponto.handler.TimerHandler;
-import com.fjmob.ponto.persistence.FaltaDAO;
 import com.fjmob.ponto.persistence.HistoricoDAO;
-import com.fjmob.ponto.persistence.MoodDAO;
 import com.fjmob.ponto.task.FazerBackupTask;
 import com.fjmob.ponto.task.ImportarBackupTask;
 import com.fjmob.ponto.task.VerificarAdicionarHistoricoTask;
 import com.fjmob.ponto.task.VerificarAdicionarMoodTask;
 import com.fjmob.ponto.task.VerificarRemoverHistoricoTask;
 import com.fjmob.ponto.task.VerificarRemoverMoodTask;
-import com.fjmob.ponto.util.HistoricoFragment;
 
 public class MainActivity extends ActionBarActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
@@ -88,7 +79,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
 			Window window = getWindow();
 			window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
 			window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-			window.setStatusBarColor(getResources().getColor(R.color.primary_dark));
+			window.setStatusBarColor(getResources().getColor(R.color.primary));
 		} else{
 		}
 

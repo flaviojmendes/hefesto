@@ -85,8 +85,8 @@
     <color name="material_grey_900">#ff212121</color>
     <!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/values/colors.xml -->
     <eat-comment/>
-    <color name="primary">#FF9800</color>
-    <color name="primary_dark">#F57C00</color>
+    <color name="primary">#607D8B</color>
+    <color name="primary_dark">#455A64</color>
     <!-- From: file:/home/flavio/dev/hefesto/ponto/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">@android:color/black</color>
@@ -402,7 +402,7 @@
     <string name="usuarios">usuários</string>
     <string name="vc_esta">Você está em</string>
     <string name="vc_faltou">VOCÊ FALTOU ESSE DIA</string>
-    <string name="vc_possui_saldo">Você possui já trabalhou mais que</string>
+    <string name="vc_possui_saldo">Você já trabalhou mais que</string>
     <string name="voce">Você</string>
     <string name="widget_bater_ponto">Hefesto (Bater Ponto)</string>
     <string name="widget_contagem_regressiva">Hefesto (Contagem Regressiva)</string>
@@ -1398,9 +1398,9 @@
         <item name="fab_showAnimation">@anim/jump_from_down</item>
         <item name="fab_hideAnimation">@anim/jump_to_down</item>
         <item name="fab_shadowColor">#444</item>
-        <item name="fab_colorNormal">#FFB805</item>
-        <item name="fab_colorPressed">#F2AB00</item>
-        <item name="fab_colorRipple">#D99200</item>
+        <item name="fab_colorNormal">@color/accent</item>
+        <item name="fab_colorPressed">@color/primary_dark</item>
+        <item name="fab_colorRipple">@color/primary_text</item>
     </style>
     <style name="MenuLabelsStyle">
         <item name="android:background">@drawable/fab_label_background</item>

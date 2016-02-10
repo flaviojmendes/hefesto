@@ -48,7 +48,7 @@
 	<string name="widget_bater_ponto">Register Time</string>
 	<string name="title_activity_ranking">Ranking</string>
     <string name="action_ranking">Ranking</string>
-	<string name="vc_possui_saldo">You more than</string>
+	<string name="vc_possui_saldo">You\'ve worked more than</string>
 	<string name="usuarios">users</string>
 	<string name="vc_esta">You are</string>
 	<string name="carregando">loading..</string>

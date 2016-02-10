@@ -49,7 +49,7 @@
     <string name="widget_bater_ponto">Hefesto (Bater Ponto)</string>
     <string name="title_activity_ranking">Ranking</string>
     <string name="action_ranking">Ranking</string>
-    <string name="vc_possui_saldo">Você possui já trabalhou mais que</string>
+    <string name="vc_possui_saldo">Você já trabalhou mais que</string>
     <string name="usuarios">usuários</string>
     <string name="vc_esta">Você está em</string>
     <string name="carregando">carregando..</string>

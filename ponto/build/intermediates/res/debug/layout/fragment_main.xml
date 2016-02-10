@@ -102,14 +102,15 @@
      	<ImageView android:id="@+id/btnPrevMes"
      	    android:layout_width="0dp"
      	    android:layout_height="36dp"
-     	    android:layout_weight="0.1"
+     	    android:layout_weight="0.2"
+			android:paddingLeft="10dp"
      	    android:gravity="center_vertical|center_horizontal"
 	        android:layout_gravity="center_vertical|center_horizontal"
      	    android:src="@drawable/ic_arrow_back"
      	    />
 	      
      		<LinearLayout 
-     		    android:layout_weight="0.8"
+     		    android:layout_weight="0.6"
      		    android:layout_width="wrap_content"
      		    android:layout_height="fill_parent"
      		     android:gravity="center_vertical|center_horizontal"
@@ -127,26 +128,22 @@
 		        android:text=""></TextView>
 		         
 		        
-		         <ImageView android:id="@+id/btnChart"
+		         <!--<ImageView android:id="@+id/btnChart"
 	     	     android:layout_width="36dp"
 	     	    android:layout_height="36dp"
 	     	    android:gravity="center_vertical|center_horizontal"
 		        android:layout_gravity="center_vertical|center_horizontal"
 	     	    android:src="@drawable/ic_chart"
-	     	    />
-				<com.gc.materialdesign.views.ProgressBarCircularIndeterminate
-					android:id="@+id/loadingIcon"
-					android:layout_width="32dp"
-					android:layout_height="32dp"
-					android:background="@color/icons"
-					android:visibility="invisible"/>
+	     	    />-->
+
 	        
 	        </LinearLayout>
 	        
 	       <ImageView android:id="@+id/btnNextMes"
      	     android:layout_width="0dp"
      	    android:layout_height="36dp"
-     	    android:layout_weight="0.1"
+     	    android:layout_weight="0.2"
+			android:paddingRight="10dp"
      	    android:gravity="center_vertical|center_horizontal"
 	        android:layout_gravity="center_vertical|center_horizontal"
      	    android:src="@drawable/ic_arrow_forward"
@@ -192,7 +189,7 @@
 		android:paddingLeft="10dp"
 		android:src="@drawable/ic_menu"
 		app:menu_labels_style="@style/MenuLabelsStyle"
-		app:menu_colorNormal="@color/primary"
+		app:menu_colorNormal="@color/accent"
 		app:menu_colorPressed="@color/primary_dark"
 		app:menu_colorRipple="@color/icons"
 		app:menu_labels_showAnimation="@anim/jump_from_down"
@@ -227,5 +224,13 @@
 
 
 	</com.github.clans.fab.FloatingActionMenu>
-
+	<com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+		android:id="@+id/loadingIcon"
+		android:layout_width="200dp"
+		android:layout_height="200dp"
+		android:layout_gravity="center_horizontal|center_vertical"
+		android:gravity="center_horizontal|center_vertical"
+		android:background="@color/accent"
+		android:visibility="invisible"
+		/>
 </FrameLayout><!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/layout/fragment_main.xml -->

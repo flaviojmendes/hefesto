@@ -70,7 +70,7 @@
     <string name="usuarios">users</string>
     <string name="vc_esta">You are</string>
     <string name="vc_faltou">YOU WERE ABSENT</string>
-    <string name="vc_possui_saldo">You more than</string>
+    <string name="vc_possui_saldo">You\'ve worked more than</string>
     <string name="voce">You</string>
     <string name="widget_bater_ponto">Register Time</string>
     <string name="widget_contagem_regressiva">Hefesto (Timer)</string>

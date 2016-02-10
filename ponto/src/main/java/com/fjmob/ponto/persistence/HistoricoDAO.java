@@ -49,7 +49,16 @@ public class HistoricoDAO {
         ContentValues values = gerarContentValuesHistorico(historico);
         dataBase.insert(NOME_TABELA, null, values);
     }
- 
+
+
+    public List<Historico> recuperarTodos(int mes) {
+        String queryReturnAll = "SELECT * FROM " + NOME_TABELA;
+        Cursor cursor = dataBase.rawQuery(queryReturnAll, null);
+        List<Historico> historicos = construirHistoricoPorCursor(cursor);
+
+        return historicos;
+    }
+
     public List<Historico> recuperarTodos() {
         String queryReturnAll = "SELECT * FROM " + NOME_TABELA;
         Cursor cursor = dataBase.rawQuery(queryReturnAll, null);

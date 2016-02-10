@@ -5,7 +5,6 @@ import android.accounts.AccountManager;
 import android.app.Activity;
 
 import android.app.FragmentTransaction;
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.support.v4.app.Fragment;
@@ -20,7 +19,7 @@ import com.fjmob.ponto.entity.Mood;
 import com.fjmob.ponto.persistence.FaltaDAO;
 import com.fjmob.ponto.persistence.HistoricoDAO;
 import com.fjmob.ponto.persistence.MoodDAO;
-import com.fjmob.ponto.util.HistoricoFragment;
+import com.fjmob.ponto.HistoricoFragment;
 import com.gc.materialdesign.views.ProgressBarCircularIndeterminate;
 import com.parse.ParseException;
 import com.parse.ParseObject;

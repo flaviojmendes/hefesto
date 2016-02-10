@@ -67,6 +67,7 @@ public class HistoricoHandler {
 	private Drawable drwbMood;
 	private Drawable drwbAdd;
 	private Drawable drwbClose;
+	private Drawable drwbComment;
 	private Drawable drwbEnter;
 	private Drawable drwbExit;
 	private float scale;
@@ -106,6 +107,7 @@ public class HistoricoHandler {
 		this.drwbAdd = activity.getResources().getDrawable(R.drawable.ic_add);
 		this.drwbEnter = activity.getResources().getDrawable(R.drawable.enter);
 		this.drwbExit = activity.getResources().getDrawable(R.drawable.exit);
+		this.drwbComment = activity.getResources().getDrawable(R.drawable.ic_comment);
 		this.scale = activity.getResources().getDisplayMetrics().density;
 		this.robotoLight = Typeface.createFromAsset(activity.getAssets(), "fonts/Roboto-Light.ttf");
 		this.robotoMedium = Typeface.createFromAsset(activity.getAssets(), "fonts/Roboto-Medium.ttf");
@@ -147,7 +149,9 @@ public class HistoricoHandler {
 
 		layoutHistoricos.removeAllViews();
 
-		List<Historico> historicos = HistoricoDAO.getInstance(activity).recuperarTodos();
+		Calendar calendarDataCal = Calendar.getInstance();
+		calendarDataCal.setTime(dataCal);
+		List<Historico> historicos = HistoricoDAO.getInstance(activity).recuperarTodos(calendarDataCal.get(Calendar.MONTH));
 
 		TreeMap<String, List<Historico>> mapaHistorico = montarMapaHistorico(historicos);
 
@@ -242,7 +246,14 @@ public class HistoricoHandler {
 				linearMoodHour.setLayoutParams(layoutParams);
 				linearMoodHour.setOrientation(LinearLayout.HORIZONTAL);
 				linearMoodHour.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.CENTER_VERTICAL);
-				
+
+
+
+				ImageView commentImg = new ImageView(activity);
+				commentImg.setLayoutParams(layoutParamsImgMood);
+				commentImg.setImageDrawable(drwbComment);
+				linearMoodHour.addView(commentImg);
+
 //				TextView txtHoraMood = new TextView(activity);
 //				txtHoraMood.setText(sdfHoraMin.format(mood.getDataGravacao()));
 //				txtHoraMood.setTextColor(scndryColor);
@@ -255,13 +266,13 @@ public class HistoricoHandler {
 //				linearMoodHour.addView(txtHoraMood);
 
 
-//				LinearLayout linearRuler = new LinearLayout(activity);
-//				LayoutParams lytParams = new LayoutParams((int)(scale * 1), (int) (10*scale));
-//				lytParams.setMargins((int) (3 * scale), 0, (int) (3 * scale), 0);
-//				linearRuler.setLayoutParams(lytParams);
-//				linearRuler.setOrientation(LinearLayout.VERTICAL);
-//				linearRuler.setBackgroundColor(dividerColor);
-//				linearMoodHour.addView(linearRuler);
+				LinearLayout linearRuler = new LinearLayout(activity);
+				LayoutParams lytParams = new LayoutParams((int)(scale * 1), (int) (10*scale));
+				lytParams.setMargins((int) (3 * scale), 0, (int) (3 * scale), 0);
+				linearRuler.setLayoutParams(lytParams);
+				linearRuler.setOrientation(LinearLayout.VERTICAL);
+				linearRuler.setBackgroundColor(dividerColor);
+				linearMoodHour.addView(linearRuler);
 
 
 				TextView txtComment = new TextView(activity);

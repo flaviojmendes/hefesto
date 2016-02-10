@@ -51,30 +51,30 @@ public final class R {
 		public static final int dialog_background = 0x7f02005a;
 		public static final int float_button1_shadowp = 0x7f020065;
 		public static final int float_button_shadow1 = 0x7f020066;
-		public static final int ic_launcher = 0x7f020073;
-		public static final int ic_reloj_max = 0x7f020076;
-		public static final int shadow_down = 0x7f020083;
-		public static final int shadow_right = 0x7f020084;
-		public static final int sprite_check = 0x7f020087;
+		public static final int ic_launcher = 0x7f020074;
+		public static final int ic_reloj_max = 0x7f020077;
+		public static final int shadow_down = 0x7f020084;
+		public static final int shadow_right = 0x7f020085;
+		public static final int sprite_check = 0x7f020088;
 	}
 	public static final class id {
 		public static final int blue = 0x7f0d0068;
 		public static final int button_accept = 0x7f0d0075;
 		public static final int button_cancel = 0x7f0d0074;
-		public static final int buttonflat = 0x7f0d00e8;
+		public static final int buttonflat = 0x7f0d00e7;
 		public static final int contentDialog = 0x7f0d0071;
 		public static final int contentSelector = 0x7f0d0064;
 		public static final int dialog_rootView = 0x7f0d0070;
 		public static final int green = 0x7f0d0067;
 		public static final int message = 0x7f0d0073;
 		public static final int message_scrollView = 0x7f0d0072;
-		public static final int number_indicator_spinner_content = 0x7f0d00e1;
-		public static final int progressBarCircularIndetermininate = 0x7f0d00e3;
+		public static final int number_indicator_spinner_content = 0x7f0d00e0;
+		public static final int progressBarCircularIndetermininate = 0x7f0d00e2;
 		public static final int red = 0x7f0d0066;
 		public static final int rootSelector = 0x7f0d0063;
-		public static final int shape_bacground = 0x7f0d00ed;
-		public static final int snackbar = 0x7f0d00e7;
-		public static final int text = 0x7f0d00de;
+		public static final int shape_bacground = 0x7f0d00ec;
+		public static final int snackbar = 0x7f0d00e6;
+		public static final int text = 0x7f0d00dd;
 		public static final int title = 0x7f0d003a;
 		public static final int viewColor = 0x7f0d0065;
 	}
