@@ -14,7 +14,7 @@ public class Cronometro extends Chronometer{
 
 	private static Cronometro instance;
 	
-	public Cronometro(Context context) {
+	private Cronometro(Context context) {
 		super(context);
 	}
 	
