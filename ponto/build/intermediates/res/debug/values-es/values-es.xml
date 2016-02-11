@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/flavio/dev/hefesto/ponto/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-es/values-es.xml -->
+    <!-- From: file:/Users/mcastro/dev/hefesto/ponto/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-es/values-es.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -21,7 +21,7 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
-    <!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/values-es/strings.xml -->
+    <!-- From: file:/Users/mcastro/dev/hefesto/ponto/src/main/res/values-es/strings.xml -->
     <eat-comment/>
     <string name="action_adicionar_falta">Adicionar Falta</string>
     <string name="action_adicionar_horario">Adicionar Horário</string>
@@ -72,10 +72,10 @@
     <string name="saldo_negativo">Saldo negativo</string>
     <string name="salvar">SALVAR</string>
     <string name="sim">Sim</string>
-    <!-- From: file:/home/flavio/dev/hefesto/ponto/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-es/values-es.xml -->
+    <!-- From: file:/Users/mcastro/dev/hefesto/ponto/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-es/values-es.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
-    <!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/values-es/strings.xml -->
+    <!-- From: file:/Users/mcastro/dev/hefesto/ponto/src/main/res/values-es/strings.xml -->
     <eat-comment/>
     <string name="tempo_jornada_label">Jornada de Trabalho:</string>
     <string name="tempo_restante">TEMPO RESTANTE</string>

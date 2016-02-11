@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/values-en/strings.xml -->
+    <!-- From: file:/Users/mcastro/dev/hefesto/ponto/src/main/res/values-en/strings.xml -->
     <eat-comment/>
     <string name="action_adicionar_falta">Add Absence</string>
     <string name="action_adicionar_horario">Add Time</string>

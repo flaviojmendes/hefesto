@@ -5,4 +5,4 @@
    android:updatePeriodMillis="0" 
    android:minHeight="40dp" 
    android:initialLayout="@layout/cronometro_widget">
-</appwidget-provider><!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/xml/cronometro_widget.xml -->
+</appwidget-provider><!-- From: file:/Users/mcastro/dev/hefesto/ponto/src/main/res/xml/cronometro_widget.xml -->

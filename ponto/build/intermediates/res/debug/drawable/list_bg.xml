@@ -2,4 +2,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_activated="true" android:drawable="@color/primary_dark" />
     <item android:drawable="@color/primary" />
-</selector><!-- From: file:/home/flavio/dev/hefesto/ponto/src/main/res/drawable/list_bg.xml -->
+</selector><!-- From: file:/Users/mcastro/dev/hefesto/ponto/src/main/res/drawable/list_bg.xml -->
