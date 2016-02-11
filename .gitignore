@@ -53,3 +53,5 @@ fabric.properties
 *.iml
 Habitica/res/values/secret_strings.xml
 local.properties
+.idea
+.gradle
