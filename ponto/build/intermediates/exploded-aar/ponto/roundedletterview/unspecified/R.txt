@@ -1,9 +1,0 @@
-int attr rlv_backgroundColorValue 0x7f010003
-int attr rlv_titleColor 0x7f010002
-int attr rlv_titleSize 0x7f010001
-int attr rlv_titleText 0x7f010000
-int[] styleable RoundedLetterView { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003 }
-int styleable RoundedLetterView_rlv_backgroundColorValue 3
-int styleable RoundedLetterView_rlv_titleColor 2
-int styleable RoundedLetterView_rlv_titleSize 1
-int styleable RoundedLetterView_rlv_titleText 0

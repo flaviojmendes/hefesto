@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/primary_dark" />
-    <size android:width="0.5dp" />
-</shape><!-- From: file:/Users/mcastro/dev/hefesto/ponto/src/main/res/drawable/text_cursor_cyan.xml -->

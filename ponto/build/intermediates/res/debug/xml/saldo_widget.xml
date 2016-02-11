@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<appwidget-provider 
-   xmlns:android="http://schemas.android.com/apk/res/android" 
-   android:minWidth="110dp" 
-   android:updatePeriodMillis="0" 
-   android:minHeight="40dp" 
-   android:initialLayout="@layout/saldo_widget">
-</appwidget-provider><!-- From: file:/Users/mcastro/dev/hefesto/ponto/src/main/res/xml/saldo_widget.xml -->
