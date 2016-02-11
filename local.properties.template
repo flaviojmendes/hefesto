@@ -8,4 +8,4 @@
 # For customization when using a Version Control System, please read the
 # header note.
 #Fri Nov 20 07:33:26 BRST 2015
-sdk.dir=/home/flavio/Android/Sdk
+sdk.dir=<YOUR-SDK_HERE>
