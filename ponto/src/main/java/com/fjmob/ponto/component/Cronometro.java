@@ -1,5 +1,6 @@
 package com.fjmob.ponto.component;
 
+import android.support.v4.content.ContextCompat;
 import com.fjmob.ponto.R;
 
 import android.content.Context;
@@ -13,20 +14,19 @@ public class Cronometro extends Chronometer{
 
 	private static Cronometro instance;
 	
-	public Cronometro(Context context) {
+	private Cronometro(Context context) {
 		super(context);
 	}
 	
 	public static Cronometro getInstance(Context context){
         if(instance == null) {
-             instance = new Cronometro(context);
-             instance.setTextColor(context.getResources().getColor(R.color.primary_text));
-             instance.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
-             instance.setTypeface(Typeface.createFromAsset(context.getAssets(), "fonts/Roboto-Medium.ttf"));
-             instance.setGravity(Gravity.END|Gravity.CENTER_VERTICAL);
-             instance.setTextSize(TypedValue.COMPLEX_UNIT_SP,16);
- 			instance.setTextColor(context.getResources().getColor(R.color.accent));
- 			
+            instance = new Cronometro(context);
+            instance.setTextColor(ContextCompat.getColor(context, R.color.primary_text));
+            instance.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
+            instance.setTypeface(Typeface.createFromAsset(context.getAssets(), "fonts/Roboto-Medium.ttf"));
+            instance.setGravity(Gravity.END|Gravity.CENTER_VERTICAL);
+            instance.setTextSize(TypedValue.COMPLEX_UNIT_SP,16);
+            instance.setTextColor(ContextCompat.getColor(context, R.color.accent));
         }
         return instance;
 	}

@@ -1,3 +1,5 @@
+[![Build Status](https://snap-ci.com/mauriciofaustino/hefesto/branch/master/build_image)](https://snap-ci.com/mauriciofaustino/hefesto/branch/master)
+
 # Hefesto
 
 ###About
