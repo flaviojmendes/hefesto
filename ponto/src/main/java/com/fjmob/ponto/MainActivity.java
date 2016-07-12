@@ -52,26 +52,11 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
 		mTitle = getTitle();
 
 
-
-
-
 		getSupportActionBar().setElevation(0);
 		
 		String deviceId = Secure.getString(this.getContentResolver(),
 				Secure.ANDROID_ID);
-		
-		VerificarAdicionarHistoricoTask histTask = new VerificarAdicionarHistoricoTask(this);
-		histTask.execute(deviceId);
-		
-		VerificarRemoverHistoricoTask histRemTask = new VerificarRemoverHistoricoTask(this);
-		histRemTask.execute(deviceId);
 
-		VerificarAdicionarMoodTask moodTask = new VerificarAdicionarMoodTask(this);
-		moodTask.execute(deviceId);
-
-		VerificarRemoverMoodTask moodRemTask = new VerificarRemoverMoodTask(this);
-		moodRemTask.execute(deviceId);
-		
 		
 		
 		int currentapiVersion = android.os.Build.VERSION.SDK_INT;
@@ -135,15 +120,6 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
                 frgTrnsFalta.commit();
                 break;
             case 4:
-                mTitle = getString(R.string.action_ranking);
-                getSupportActionBar().setTitle(mTitle);
-                removerOutrosFragments();
-                FragmentTransaction frgTrnsRnk = getFragmentManager().beginTransaction()
-                        .replace(R.id.container, new RankingFragment());
-                frgTrnsRnk.addToBackStack(getResources().getString(R.string.action_ranking));
-                frgTrnsRnk.commit();
-                break;
-            case 5:
                 mTitle = getString(R.string.action_configuracoes);
                 getSupportActionBar().setTitle(mTitle);
                 removerOutrosFragments();

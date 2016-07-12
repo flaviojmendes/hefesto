@@ -103,7 +103,6 @@ public class HistoricoHandler {
 		this.total = total;
 
 		this.drwbClose = activity.getResources().getDrawable(R.drawable.ic_close);
-		this.drwbMood = activity.getResources().getDrawable(R.drawable.ic_mood);
 		this.drwbAdd = activity.getResources().getDrawable(R.drawable.ic_add);
 		this.drwbEnter = activity.getResources().getDrawable(R.drawable.enter);
 		this.drwbExit = activity.getResources().getDrawable(R.drawable.exit);

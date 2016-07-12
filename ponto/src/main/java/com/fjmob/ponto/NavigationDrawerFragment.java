@@ -105,7 +105,6 @@ public class NavigationDrawerFragment extends Fragment {
                         getResources().getString(R.string.action_main),
                         getResources().getString(R.string.action_adicionar_horario),
                         getResources().getString(R.string.action_adicionar_falta),
-                        getResources().getString(R.string.action_ranking),
                         getResources().getString(R.string.action_configuracoes)
 
                 }));

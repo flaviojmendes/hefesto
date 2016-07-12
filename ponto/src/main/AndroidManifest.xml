@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.fjmob.ponto"
     android:installLocation="internalOnly"
-    android:versionCode="70"
-    android:versionName="3.0.1" >
+    android:versionCode="71"
+    android:versionName="3.1.0" >
 
     <uses-permission android:name="android.permission.READ_PROFILE" />
 	<uses-permission android:name="android.permission.READ_CONTACTS" />
